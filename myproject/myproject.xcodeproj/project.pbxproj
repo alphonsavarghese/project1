@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C306BA91EC9B386008EE74E /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C306BA81EC9B386008EE74E /* tableViewController.m */; };
 		CC59F0001EC9A72100A6151C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59EFFF1EC9A72100A6151C /* main.m */; };
 		CC59F0031EC9A72100A6151C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59F0021EC9A72100A6151C /* AppDelegate.m */; };
 		CC59F0061EC9A72100A6151C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59F0051EC9A72100A6151C /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C306BA71EC9B386008EE74E /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		2C306BA81EC9B386008EE74E /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
 		CC59EFFB1EC9A72100A6151C /* myproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC59EFFF1EC9A72100A6151C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC59F0011EC9A72100A6151C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				CC59F0021EC9A72100A6151C /* AppDelegate.m */,
 				CC59F0041EC9A72100A6151C /* ViewController.h */,
 				CC59F0051EC9A72100A6151C /* ViewController.m */,
+				2C306BA71EC9B386008EE74E /* tableViewController.h */,
+				2C306BA81EC9B386008EE74E /* tableViewController.m */,
 				CC59F0071EC9A72100A6151C /* Main.storyboard */,
 				CC59F00A1EC9A72100A6151C /* Assets.xcassets */,
 				CC59F00C1EC9A72100A6151C /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				CC59F0061EC9A72100A6151C /* ViewController.m in Sources */,
 				CC59F0031EC9A72100A6151C /* AppDelegate.m in Sources */,
 				CC59F0001EC9A72100A6151C /* main.m in Sources */,
+				2C306BA91EC9B386008EE74E /* tableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,7 @@
 				CC59F0141EC9A72200A6151C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
