@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tableViewController : UIViewController
+@interface tableViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@property (strong, nonatomic) NSArray *imgArry, *nameArry, *priceArry;
 
 
 

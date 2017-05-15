@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C306BA91EC9B386008EE74E /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C306BA81EC9B386008EE74E /* tableViewController.m */; };
+		2C306BAC1EC9B49C008EE74E /* detailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C306BAB1EC9B49C008EE74E /* detailsTableViewCell.m */; };
 		CC59F0001EC9A72100A6151C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59EFFF1EC9A72100A6151C /* main.m */; };
 		CC59F0031EC9A72100A6151C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59F0021EC9A72100A6151C /* AppDelegate.m */; };
 		CC59F0061EC9A72100A6151C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC59F0051EC9A72100A6151C /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		2C306BA71EC9B386008EE74E /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
 		2C306BA81EC9B386008EE74E /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		2C306BAA1EC9B49C008EE74E /* detailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailsTableViewCell.h; sourceTree = "<group>"; };
+		2C306BAB1EC9B49C008EE74E /* detailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailsTableViewCell.m; sourceTree = "<group>"; };
 		CC59EFFB1EC9A72100A6151C /* myproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC59EFFF1EC9A72100A6151C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC59F0011EC9A72100A6151C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				CC59F0051EC9A72100A6151C /* ViewController.m */,
 				2C306BA71EC9B386008EE74E /* tableViewController.h */,
 				2C306BA81EC9B386008EE74E /* tableViewController.m */,
+				2C306BAA1EC9B49C008EE74E /* detailsTableViewCell.h */,
+				2C306BAB1EC9B49C008EE74E /* detailsTableViewCell.m */,
 				CC59F0071EC9A72100A6151C /* Main.storyboard */,
 				CC59F0151EC9B6C900A6151C /* detailesViewController.h */,
 				CC59F0161EC9B6C900A6151C /* detailesViewController.m */,
@@ -162,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC59F0061EC9A72100A6151C /* ViewController.m in Sources */,
+				2C306BAC1EC9B49C008EE74E /* detailsTableViewCell.m in Sources */,
 				CC59F0031EC9A72100A6151C /* AppDelegate.m in Sources */,
 				CC59F0001EC9A72100A6151C /* main.m in Sources */,
 				2C306BA91EC9B386008EE74E /* tableViewController.m in Sources */,
