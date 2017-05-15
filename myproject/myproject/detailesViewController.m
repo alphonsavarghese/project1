@@ -14,24 +14,24 @@
 
 @implementation detailesViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.lblqty.text = @"0";
+    self.imgView.image = self.img;
+    self.lblPrice.text = self.price;
+    
+}
+- (IBAction)sTepperData:(UIStepper *)sender
+{
+    
+    self.lblqty.text=[NSString stringWithFormat:@"%d",(int)sender.value];
+    int a=[self.lblPrice.text intValue];
+    int b=[self.lblqty.text intValue];
+    int x=a*b;
+    
+    self.lbltotal.text=[NSString stringWithFormat:@"%d",x];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

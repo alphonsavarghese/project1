@@ -9,7 +9,15 @@
 #import "ViewController.h"
 
 @interface detailesViewController : ViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblName;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
 
 
-
+@property (strong, nonatomic) IBOutlet UILabel *lblPrice;
+@property NSString* name;
+@property NSString* price;
+@property UIImage * img;
+@property (strong, nonatomic) IBOutlet UILabel *lblqty;
+@property (strong, nonatomic) IBOutlet UILabel *lbltotal;
 @end
